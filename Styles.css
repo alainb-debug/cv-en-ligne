@@ -1,0 +1,62 @@
+video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+  }
+.vide{
+    height: 50vh;
+   
+}
+.blanc{
+    background-color: white;
+    height: 1080px;
+    left: 20px;
+    border: 2px solid blue;
+  
+
+}
+h1{
+    text-align: right;
+    text-align: center;
+    color: red;
+    border-radius:  solid black;
+}
+p{
+    border:2px  solid;
+    text-align: center;
+    
+}
+h2{
+    text-align:center;
+}
+.progress{
+    height: 25px;
+    
+}
+.row-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start ;
+    /* margin-right:  100px;
+    padding: 100px; */
+}
+h3{
+    font-size: 20px;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 100px;
+    /* padding: 100px; */
+}
+.avat{
+    height: 100 px;
+    width:300px ;
+    border: solid blue;
+}
+
