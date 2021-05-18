@@ -1,0 +1,36 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2020/03/17/13/04/desert-4940300_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia;
+}
+.orange {
+    text-align: center;
+    margin: 5px;
+    color:orange;
+}
+.orange h1{
+    margin-top: 30px;
+}
+.rectangle{
+    text-align: center;
+    border: black;
+    background-color:white;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    width: 100%;
+    
+}
+.souligner{
+    text-decoration: underline;
+}
+.bi{
+background-color: orange;
+color: white;
+padding: 6px;
+border-radius: 100%;
+}
+
+
+

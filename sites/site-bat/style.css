@@ -1,0 +1,41 @@
+
+.img-perso{
+    /* je t'autorise à prendre 100% de l'espace de ton parent */
+    /* l'image a pour parent : div class="col-12 col-md-6" */
+    width: 100%;
+    /* height auto pour laisser gérer le navigateur quant au ratio de l'image */
+    height: auto;
+    background-color: rgb(68, 22, 233);
+}
+.bloc1{
+    text-align: center;
+    color: thistle;
+}
+.h1{
+    color: blue;
+    text-align: center;
+}
+.bloc2{
+    text-align: center;
+    color: thistle;
+}
+.bloc3{
+    text-align: center;
+    color: thistle;
+}
+.texte-d{
+    display:flex;
+    /* met en colonne */
+    flex-direction: column;
+    /* centrer à l'horizontale quand on est colonne sinon en ligne centrage à la verticale */
+    align-items:center;
+    /* centrer verticalement quand on est en colonne sinon en ligne centrage à l'horizontale  */
+    justify-content: center;
+}
+.bi{
+    background-color: blue;
+    color:white;
+}
+.h6{
+    color: tomato;
+}

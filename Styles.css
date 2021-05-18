@@ -21,28 +21,27 @@ video#bgvid {
 h1{
     text-align: right;
     text-align: center;
-    color: white;
+    color: brown;
     margin-top: 100px;
-    /* padding-top: 40px; */
+    padding-bottom: 40px;
 }
 
 h3{
-    border:  ;
     border-radius: 20px;
     text-align: center; 
-    color: white;
+    color: brown;
     display:inline-block;
     font-size: 20px;
     
 }
 h2{
     text-align:center;
-    border: 3px solid black;
+    border: 3px solid brown;
     border-radius: 20px;
-    color:white
+    color:brown
 }
 .cf{
-    background-color:gray ;
+    background-color:gray;
 }
 .cf2{
     background-color:rgb(66, 59, 59);
@@ -50,8 +49,19 @@ h2{
 .cf3{
     background-color:rgb(69, 69, 71);
 }
-.cf4{
-    background-color: black;
+/* .cf4{
+    background-color: ;
+} */
+.f-5{
+    background-color: darkcyan;
+}
+.f-6{
+    text-align: center;
+}
+.f-7{
+    width:300px; 
+    height: 300px;
+    padding: 30px
 }
 .progress{
     height: 90px; 
@@ -88,9 +98,9 @@ h2{
 .cv{
     text-align: right;
 }
-/* .cw{
+.cw{
     text-align: left;
-} */
+}
 .popover-header{
     color: black;
 }
@@ -107,14 +117,26 @@ h2{
     width: 100%;
     min-height: 500px;
 }
-/* .carousel{
-    max-height:3px
-} */
-.ph{
+.ph-1{
     text-align: left;
+    color: brown;
+}
+.ph-2{
+    text-align: center;
+    color: brown;
 }
 .bloc-contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.carousel-item img{
+ max-height: 400px ;
+
+}
+.linkedin{
+    color: brown;
+}
+.cv-pdf{
+    color: brown;
 }

@@ -1,0 +1,90 @@
+/*----------------------------------Section 1-----------------------------------*/
+.row{
+    margin-bottom: 20px;
+}
+
+.defilé{
+    max-height: 400px;
+    /* margin: 12px; */
+    border:5px solid white;
+
+}
+/* ---------------------------------- NAVBAR ----------------------------- */
+.navbar .nav-link{
+    color:white !important;
+    text-decoration: none;
+    
+}
+.navbar .collapse{
+    background-color:rgb(17, 122, 170);
+ }
+/* ------------------------------ SECTION 1 ------------------------------------- */
+
+.font{
+    background-color: rgb(19, 211, 218);
+} 
+.h1{
+    text-align: center;
+    border:10px solid white;
+    background-color: rgb(17, 122, 170);
+    margin: 10px;
+    color: white;
+}
+ /* -------------------------Section3--------------------------------------------------------------- */
+/* Section 1 liste des produits */
+.bouton-produits{
+    width: 150px;
+    display: block;
+
+}
+.icone{
+    font-size: 36px;
+    color:white;
+}
+.insta{
+    font-size: 36px;
+    color:white;
+}
+.twit{
+    font-size: 36px;
+    color: white;
+}
+
+ /* Section 2 Contact  */
+.p1, .p3, .p2 {
+    color: white;
+    text-align: center;
+    border: 5px solid rgb(17, 122, 170);;
+    display:flex;
+    /* met en colonne */
+    flex-direction: column;
+    /* centrer à l'horizontale quand on est colonne sinon en ligne centrage à la verticale */
+    align-items:center;
+    /* centrer verticalement quand on est en colonne sinon en ligne centrage à l'horizontale  */
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+/* Section 3 Galerie */
+.p4, .p5, .p7, .p6 {
+    color:white; 
+    text-align: center;
+    border: 5px solid rgb(17, 122, 170);
+    display:flex;
+    /* met en colonne */
+    flex-direction: column;
+    /* centrer à l'horizontale quand on est colonne sinon en ligne centrage à la verticale */
+    align-items:center;
+    /* centrer verticalement quand on est en colonne sinon en ligne centrage à l'horizontale  */
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .footer{
+      border: 5px solid maroon;
+  }
+  .haut{
+    color: white;
+    text-align: center;
+    background-color:#332F29;
+  }
+/* Section 4 Plats */
