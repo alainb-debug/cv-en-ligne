@@ -21,7 +21,7 @@ video#bgvid {
 h1{
     text-align: right;
     text-align: center;
-    color: brown;
+    color: white;
     margin-top: 100px;
     padding-bottom: 40px;
 }
@@ -29,16 +29,16 @@ h1{
 h3{
     border-radius: 20px;
     text-align: center; 
-    color: brown;
+    color: white;
     display:inline-block;
     font-size: 20px;
     
 }
 h2{
     text-align:center;
-    border: 3px solid brown;
+    border: 3px solid black;
     border-radius: 20px;
-    color:brown
+    color:white;
 }
 .cf{
     background-color:gray;
@@ -62,6 +62,7 @@ h2{
     width:300px; 
     height: 300px;
     padding: 30px
+    
 }
 .progress{
     height: 90px; 
@@ -72,9 +73,10 @@ h2{
     justify-content: center;
     flex-direction: column;
     align-items: flex-start ;
-     margin-right:  10px;
-    /* padding: 3px; */
+     margin-right:  10px; 
+     padding: 3px;
 }
+ 
 .row-2{
     display: flex;
     justify-content: center;
@@ -82,13 +84,13 @@ h2{
     align-items: flex-end;
     margin-top: 170px;
     padding: 2px;
-}
+} 
 .avat{
-    /* height: 400 px; */
+    height: 400 px;
     width:300px ;
     border:5px  solid blue;
     border-radius: 30px;
-}
+} 
 
 .e1{
      margin-top: 130px;
@@ -96,10 +98,10 @@ h2{
   left: 100px;
 }
 .cv{
-    text-align: right;
+    text-align: center;
 }
 .cw{
-    text-align: left;
+    text-align: center;
 }
 .popover-header{
     color: black;
@@ -118,12 +120,12 @@ h2{
     min-height: 500px;
 }
 .ph-1{
-    text-align: left;
-    color: brown;
+    text-align: center;
+    color:black;
 }
 .ph-2{
     text-align: center;
-    color: brown;
+    color: black;
 }
 .bloc-contact{
     display: flex;
